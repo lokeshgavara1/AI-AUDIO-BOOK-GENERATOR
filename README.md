@@ -47,45 +47,59 @@ File Handling	PyPDF2, python-docx
 Deployment	Streamlit Cloud / Localhost
 
 📂 Project Structure
-php
-Copy code
+
 AI-AudioBook-Generator/
+
 │
+
 ├── app.py                 # Main Streamlit application
+
 ├── requirements.txt       # Python dependencies
+
 ├── README.md              # Project documentation
+
 └── assets/                # (Optional) logos, icons, sample files
+
+
 🛠️ Installation & Setup
+
 1. Clone the Repository
-bash
-Copy code
+
 git clone https://github.com/your-username/ai-audiobook-generator.git
+
 cd ai-audiobook-generator
+
 2. Create a Virtual Environment
-bash
-Copy code
+
 python -m venv venv
+
 # Activate it
+
 venv\Scripts\activate      # On Windows
+
 source venv/bin/activate   # On macOS/Linux
+
 3. Install Dependencies
-bash
-Copy code
+   
+
 pip install -r requirements.txt
-4. Add Your OpenAI API Key
+
+5. Add Your OpenAI API Key
+   
 If using Streamlit Cloud, add it to .streamlit/secrets.toml
+
 Otherwise, set it as an environment variable:
 
-bash
-Copy code
 export OPENAI_API_KEY="your_api_key_here"
+
 5. Run the App
-bash
-Copy code
+   
 streamlit run app.py
+
 Then open the local URL (e.g., http://localhost:8501) in your browser.
 
 🖥️ Usage Guide
+
 Upload your document (PDF, DOCX, or TXT)
 
 Wait while the app:
@@ -101,16 +115,21 @@ Listen to your generated audiobook
 Click Download to save the MP3 file
 
 🧪 Example Code (Snippet)
-python
-Copy code
+
 import streamlit as st
+
 from PyPDF2 import PdfReader
+
 from docx import Document
+
 from gtts import gTTS
+
 import openai
+
 import tempfile
 
 st.title("🎧 AI Audio Book Generator")
+
 st.write("Upload your document and get a narrated audiobook instantly!")
 
 uploaded_file = st.file_uploader("Upload File", type=["pdf", "docx", "txt"])
@@ -154,7 +173,6 @@ if uploaded_file:
 Here’s what to include in your requirements.txt file for easy deployment:
 
 nginx
-Copy code
 streamlit
 openai
 PyPDF2
@@ -188,7 +206,6 @@ This project is licensed under the MIT License.
 You are free to use, modify, and distribute it — just give credit.
 
 📬 Contact
-👤 Author: [Your Name]
-📧 Email: [your.email@example.com]
-🔗 LinkedIn: [linkedin.com/in/yourprofile]
-💻 GitHub: [github.com/your-username]
+👤 Author: lokeshgavara
+📧 Email: lokeshgavara1@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/lokeshgavara5/
