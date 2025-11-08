@@ -1,8 +1,11 @@
 # 🎧 AI Audio Book Generator
+
 Transform text documents into narrated audiobooks using AI-powered rewriting and text-to-speech (TTS).
+
 Built with Python and Streamlit — no paid APIs required for basic use.
 
 🧠 Overview
+
 AI Audio Book Generator is an intelligent web application that allows users to:
 
 Upload .pdf, .docx, or .txt files
