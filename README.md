@@ -206,9 +206,13 @@ Submit a pull request
 
 📜 License
 This project is licensed under the MIT License.
+
 You are free to use, modify, and distribute it — just give credit.
 
 📬 Contact
+
 👤 Author: lokeshgavara
+
 📧 Email: lokeshgavara1@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/lokeshgavara5/
