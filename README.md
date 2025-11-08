@@ -18,20 +18,32 @@ Download or preview the generated audiobook instantly
 This project demonstrates the integration of Natural Language Processing (NLP) and Speech Synthesis (TTS) to make reading more engaging and accessible.
 
 ⚙️ Features
+
 ✅ Upload and process PDF, DOCX, or TXT files
+
 ✅ AI-powered rewriting for smooth narration
+
 ✅ Natural Text-to-Speech audio generation
+
 ✅ Streamlit interface for real-time interaction
+
 ✅ MP3 file download support
+
 ✅ 100% client-friendly — deployable on Streamlit Cloud (Free)
 
 🧩 Tech Stack
 Component	Technology Used
+
 Frontend / UI	Streamlit
+
 Backend Logic	Python
+
 AI Text Rewriting	OpenAI GPT API
+
 Text-to-Speech (TTS)	gTTS / OpenAI TTS
+
 File Handling	PyPDF2, python-docx
+
 Deployment	Streamlit Cloud / Localhost
 
 📂 Project Structure
